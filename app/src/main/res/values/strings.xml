@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">UserManagement</string>
+
+    <string-array name="problem_Array">
+        <item>مشکل بالا نیامدن ویندوز</item>
+        <item>مشکل شبکه</item>
+        <item>مشکل بالا نیامدن ویندوز</item>
+        <item>مشکل شبکه</item>
+        <item>مشکل بالا نیامدن ویندوز</item>
+        <item>مشکل شبکه</item>
+        <item>مشکل بالا نیامدن ویندوز</item>
+        <item>مشکل شبکه</item>
+    </string-array>
 </resources>

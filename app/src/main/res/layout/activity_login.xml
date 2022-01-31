@@ -1,9 +1,83 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Activities.Login">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="48dp"
+            android:layout_marginBottom="28dp"
+            android:fontFamily="@font/iransans"
+            android:text="ورود"
+            android:textColor="#252525"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="48dp"
+            android:layout_marginBottom="4dp"
+            android:fontFamily="@font/iransans"
+            android:text="نام کاربری:"
+            android:textColor="#252525"
+            android:textSize="16dp" />
+
+        <EditText
+            android:id="@+id/edt_Login_UserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="48dp"
+            android:layout_marginBottom="27dp"
+            android:background="@drawable/border_edittext_login"
+            android:elevation="10dp"
+            android:outlineSpotShadowColor="@color/background"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="48dp"
+            android:layout_marginBottom="4dp"
+            android:fontFamily="@font/iransans"
+            android:text="رمزعبور:"
+            android:textColor="#252525"
+            android:textSize="16dp" />
+
+        <EditText
+            android:id="@+id/edt_Login_Password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="48dp"
+            android:layout_marginBottom="33dp"
+            android:background="@drawable/border_edittext_login"
+            android:elevation="10dp"
+            android:outlineSpotShadowColor="@color/background"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="10dp" />
+
+        <TextView
+            android:id="@+id/btn_Login_Login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="88dp"
+            android:background="@drawable/background_btn_login"
+            android:fontFamily="@font/iransans"
+            android:gravity="center"
+            android:paddingVertical="7dp"
+            android:text="ورود"
+            android:textColor="@color/white"
+            android:textSize="18dp" />
+
+    </LinearLayout>
+</RelativeLayout>
